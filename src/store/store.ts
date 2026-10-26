@@ -1,9 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
 
 import projectsReducer from "./projectsSlice";
-import tasksReducer from "../../tasksSlice";
-import teamReducer from "../../source/teamfeatures/teamSlice";
-
+import tasksReducer from "../features/tasks/tasksSlice";
+import teamReducer from "../../source/teamfeatures/team/teamSlice";
 export const store = configureStore({
   reducer: {
     projects: projectsReducer,

@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import type { AppDispatch, RootState } from "../../src/store/store";
+import type { RootState, AppDispatch } from "../../../src/store/store";
 import { removeMember } from "./teamSlice";
 import "./team.css";
 export default function TeamMemberDetailsPage() {

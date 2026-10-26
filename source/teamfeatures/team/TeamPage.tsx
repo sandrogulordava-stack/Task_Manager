@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import type { RootState } from "../../src/store/store";
+import type { RootState } from "../../../src/store/store";
 import TeamForm from "./TeamForm";
 import "./team.css";
 export default function TeamPage() {

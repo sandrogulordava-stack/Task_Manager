@@ -8,18 +8,16 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <span className="brand">Task Manager</span>
-      <NavLink to="/team" className={linkClass}>
-  გუნდი
-</NavLink>
+
       <NavLink to="/" end className={linkClass}>მთავარი</NavLink>
       <NavLink to="/projects" end className={linkClass}>პროექტები</NavLink>
       <NavLink to="/projects/new" className={linkClass}>ახალი პროექტი</NavLink>
-<NavLink to="/tasks" className={linkClass}>
-  დავალებები
-</NavLink>
-<NavLink to="/team" className={linkClass}>
-  გუნდი
-</NavLink>
+      <NavLink to="/tasks" className={linkClass}>
+        დავალებები
+      </NavLink>
+      <NavLink to="/team" className={linkClass}>
+        გუნდი
+      </NavLink>
     </nav>
   );
 }

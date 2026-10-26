@@ -2,7 +2,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import type { AppDispatch } from "../../src/store/store";
+import type { AppDispatch } from "../../../src/store/store";
 import { addMember } from "./teamSlice";
 
 const validationSchema = Yup.object({

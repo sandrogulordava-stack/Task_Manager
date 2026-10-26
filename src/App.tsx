@@ -5,10 +5,10 @@ import ProjectsPage from "./pages/ProjectsPage";
 import ProjectDetailsPage from "./pages/ProjectDetailsPage";
 import NewProjectPage from "./pages/NewProjectPage";
 import NotFoundPage from "./pages/NotFoundPage";
-import TasksPage from "../TasksPage";
-import TaskDetailsPage from "../TaskDetailsPage";
-import TeamPage from "../source/teamfeatures/TeamPage";
-import TeamMemberDetailsPage from "../source/teamfeatures/TeamMemberDetailsPage";
+import TasksPage from "./features/tasks/TasksPage";
+import TaskDetailsPage from "./features/tasks/TaskDetailsPage";
+import TeamPage from "../source/teamfeatures/team/TeamPage";
+import TeamMemberDetailsPage from "../source/teamfeatures/team/TeamMemberDetailsPage";
 export default function App() {
   return (
     <>
